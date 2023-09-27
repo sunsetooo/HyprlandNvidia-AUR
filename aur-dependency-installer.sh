@@ -9,7 +9,7 @@
 # ============================================================================
 
 # AUR package version
-aur_package_version="0.29.1-1"
+aur_package_version="0.30.0"
 
 # URL of the repository
 repository_url="https://github.com/sunsetzfrags/HyprlandNvidia-AUR"
@@ -22,44 +22,42 @@ hyprland_xdg_portal_docs="https://wiki.hyprland.org/Useful-Utilities/Hyprland-de
 
 # Array of required packages
 required_packages=(
-    cairo
-    glslang
-    libdisplay-info
-    libinput
-    libliftoff
-    libx11
-    libxcb
-    libxcomposite
-    libxfixes
-    libxkbcommon
-    libxrender
-    opengl-driver
-    pango
-    pixman
-    polkit
-    seatd
-    vulkan-icd-loader
-    vulkan-validation-layers
-    wayland
-    wayland-protocols
-    xcb-proto
-    xcb-util
-    xcb-util-errors
-    xcb-util-keysyms
-    xcb-util-renderutil
-    xcb-util-wm
-    xorg-xinput
-    xorg-xwayland
-    cmake
-    gcc
-    gdb
-    git
-    meson
-    ninja
-    vulkan-headers
-    wayland-protocols
-    xorgproto
-    ffmpeg
+	cairo
+	cmake
+	ffmpeg
+	gdb
+	gcc
+	git
+	glslang
+	libdisplay-info
+	libinput
+	libliftoff
+	libx11
+	libxcb
+	libxcomposite
+	libxfixes
+	libxkbcommon
+	libxrender
+	meson
+	ninja
+	pango
+	pixman
+	polkit
+	seatd
+	vulkan-headers
+	vulkan-icd-loader
+	vulkan-validation-layers
+	wayland
+	wayland-protocols
+	xcb-proto
+	xcb-util
+	xcb-util-errors
+	xcb-util-keysyms
+	xcb-util-renderutil
+	xcb-util-wm
+	xorg-xinput
+	xorg-xwayland
+	xorgproto
 )
 
 # Array of additional recommended packages
